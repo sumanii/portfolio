@@ -1,0 +1,95 @@
+header {
+    height: 60px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+
+    z-index: 10;
+}
+
+.header-left {
+    color: skyblue;
+    float: left;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right a {
+    float: left;
+    padding: 35px 10px 0px 10px;
+    color: white;
+    display: block;
+    transition: all 0.5s;
+}
+
+
+.header-right a:hover {
+    color: aqua;
+}
+
+
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding: 180px 0 70px 0;
+    background-image: url(images/top.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.btn-wrapper {
+    margin-top: 60px;
+}
+
+.twitter {
+    background-color: #55acee;
+}
+
+.btn {
+    padding: 8px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+.profile {
+    text-align: center;
+    color: darkblue;
+
+    padding-top: 60px;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+.profile p {
+    line-height: 10px;
+}
+
+footer {
+    height: 25px;
+    width: 100%;
+    background-color: rgb(34, 49, 52);
+    color: skyblue;
+    text-align: center;
+    margin-top: 50px;
+}
