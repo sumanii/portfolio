@@ -77,12 +77,81 @@ a {
     padding-top: 60px;
 }
 
+.skill-set {
+    text-align: center;
+    color: darkblue;
+
+    padding-top: 60px;
+}
+
 .fa {
     margin-right: 5px;
 }
 
 .profile p {
     line-height: 10px;
+}
+
+.program-lang-tabel {
+    width: 800px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.skill-set-detail table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.skill-set-detail table tr {
+    border-bottom: solid 2px white;
+}
+
+.skill-set-detail table tr:last-child {
+    border-bottom: none;
+}
+
+.skill-set-detail table th {
+    position: relative;
+    text-align: left;
+    width: 20%;
+    background-color: skyblue;
+    color: blue;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.skill-set-detail table th:after {
+    display: block;
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: calc(50% - 10px);
+    right: -10px;
+    border-left: 10px solid skyblue;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.skill-set-detail table tr *:nth-child(2) {
+    text-align: left;
+    width: 30%;
+    text-align: center;
+    background-color: lightcyan;
+    padding: 10px 0;
+}
+
+.skill-set-detail table tr *:nth-child(3) {
+    text-align: left;
+    width: 50%;
+    text-align: center;
+    background-color: #eef;
+    padding: 10px 0;
+}
+
+.skill-set-detail img {
+    width: 35px;
 }
 
 footer {
