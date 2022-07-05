@@ -47,7 +47,7 @@ a {
 }
 
 .top-wrapper {
-    padding: 180px 0 70px 0;
+    padding: 180px 0 120px 0;
     background-image: url(images/top.jpg);
     background-size: cover;
     color: white;
@@ -55,7 +55,7 @@ a {
 }
 
 .btn-wrapper {
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
 .twitter {
@@ -68,6 +68,11 @@ a {
     display: inline-block;
     opacity: 0.8;
     border-radius: 4px;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    opacity: 1;
 }
 
 .profile {
@@ -156,10 +161,15 @@ a {
 }
 
 footer {
-    height: 25px;
+    height: auto;
     width: 100%;
     background-color: rgb(34, 49, 52);
     color: skyblue;
     text-align: center;
     margin-top: 50px;
+    padding: 10px;
+}
+
+.copyright {
+    margin-top: 40px;
 }
