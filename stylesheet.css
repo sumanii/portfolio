@@ -75,14 +75,7 @@ a {
     opacity: 1;
 }
 
-.profile {
-    text-align: center;
-    color: darkblue;
-
-    padding-top: 60px;
-}
-
-.skill-set {
+.section-title {
     text-align: center;
     color: darkblue;
 
@@ -158,6 +151,67 @@ a {
 
 .skill-set-tabel img {
     width: 35px;
+}
+
+.work-container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.acd-check {
+    display: none;
+}
+
+.acd-label {
+    background: skyblue;
+    color: blue;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 1px;
+    padding: 10px;
+}
+
+.acd-content {
+    border: 1px solid blue;
+    height: 0;
+    background-color: lightcyan;
+    color: blue;
+    opacity: 0;
+    padding: 0 10px;
+    transition: .5s;
+    visibility: hidden;
+}
+
+.acd-check:checked+.acd-label+.acd-content {
+    height: auto;
+    opacity: 1;
+    padding: 10px;
+    visibility: visible;
+}
+
+.work-table {
+    width: 700px;
+    margin: 3px auto;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.work-table table,
+.work-table td,
+.work-table th {
+    border-bottom: 1px solid black;
+}
+
+.work-table table {
+    border-collapse: collapse;
+}
+
+.work-table th {
+    width: 20%;
+}
+
+.work-table img {
+    width: 70px;
 }
 
 footer {
